@@ -1,0 +1,433 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="timeline">
+  <div class="timeline-item">
+    <div class="circle"></div>
+    <div class="content">
+      <h3>Senior Software Developer</h3>
+      <p>2019 - 2023</p>
+      <p>Role description goes here...</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="circle"></div>
+    <div class="content">
+      <h3>Co-Founder & Lead Developer</h3>
+      <p>2015 - 2019</p>
+      <p>Role description goes here...</p>
+    </div>
+  </div>
+</div>
+
+<style>
+    .timeline {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Vertical line using a pseudo-element */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px; /* Adjust based on circle size */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ccc; /* Line color */
+}
+
+/* Timeline item */
+/* .timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+} */
+
+/* Circle */
+.circle {
+  position: absolute;
+  left: 10px; /* Adjust to center on the line */
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid #000; /* Circle border color */
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Content */
+.content {
+  margin-left: 50px; /* Space for the circle and line */
+  padding: 10px;
+}
+</style>
+</body>
+</html>
+    <!-- <div class="top">
+        <div class="logos">
+            <a href="https://twitter.com/"><img src="https://imgs.search.brave.com/wWeP6Pa-JGi7cDBqMPkc4Ckai-nUQl4uFSKrw0evyx4/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2MxOTUxNzhj/OTY1ZTQ3N2I0MjJk/MTY5NGM0MTRlYWVi/MjU1YWE2NDUwYmQ2/YTA2MDFhMDlkZDEx/NTAzZGNiNi90d2l0/dGVyLmNvbS8" alt="Twitter X logo" width="20" height="20"></a> 
+            <a href="https://www.linkedin.com/feed/?doFeedRefresh=true&nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bp2SVPTM9T5KsojkLCSnM3Q%3D%3D"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEVHcEwAd7UAd7UAd7UAd7UAd7UAd7UAd7UAd7UAd7X///8CcLIAaa5Nj8Hn8/lypMyawNw6hby81+j0+/0ZeLXT5fBnnchdlcOLtNWxzePrILPNAAAACnRSTlMAUn3/Gpo9+Wne3pzmuwAAAMZJREFUKJHNk9sWgiAQRcfQjIZrIOr//2gzRK6K8b3z4JG1UeYGAFz03EtPwNLqRCPAdMaUBmBDg0agV4ZYXAoCvTHMd5JHEaJn+Og/rTAy3GSojE9pPztTGczMELGGbvATRlJWmc3EbQ++7mq/dXTmipbDWhMH4OI3tBUulZEbAR6yKEBXbKiZSXClMi/knNovdJmWoRWsg/j/MB21TV0qWLz31BV6Fl5aeuHyDXVssXXyZe/GKoCxn4CmgSZ+lG7DrPQV4AnbbBfzU77xIAAAAABJRU5ErkJggg==" alt="linkedin logo" width="20" height="20"></a>
+            <a href="https://stackoverflow.design/"><img src="https://imgs.search.brave.com/wluB2__aghY_ETrOD76nzsPGYpJVU-bly6yKQuf2fq4/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ExNjA5ZTVm/MzgxOTU0NmU3OWM1/OTc1ZWFhNGZiZTBl/MGY4MDczYTBkOTBl/ZTc5NWMwYmYyZDdk/NWQ5OGI0MC9zdGFj/a292ZXJmbG93LmRl/c2lnbi8" alt="stackoverflow logo" width="20" height="20"></a>
+            <a href="https://codepen.io/tag/logo"><img src="https://imgs.search.brave.com/wTuPDXivvwNCvjFhmh7rxgQvP4kWvRtuwnRXAiELJ7E/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMWJiYTgyMmM5/MzU2ODNiYTc1OGE4/MWRjZGFiZTRhMmY1/MTc2MjM1ZWE1NjVh/ZmI3N2U2NzRmYmI0/NjBlYTgzNS9jb2Rl/cGVuLmlvLw" alt="Codepen logo" width="20" height="20"></a>
+        </div>
+        <div class="nav">
+            <a href="index.html" class="link">ABOUT</a>
+            <a href="projects.html" class="link">PROJECTS</a>
+            <a href="talks.html" class="link">TALKS</a>
+            <a href="blogs.html" class="link">BLOGS</a>
+            <a href="resume.html" class="link">RESUME</a>
+            <a href="contact.html" class="link">CONTACT</a>
+        </div>
+    </div>
+<style>
+.body{
+    width: 100%;
+}
+.top{
+    display: flex;
+    background-color: rgb(8, 141, 250);
+    justify-content: space-around;
+}
+.logos{
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.nav{
+    display: flex;
+    border: 2px solid grey;
+    justify-content: space-between;
+    width: 500px;
+}
+.nav a:hover{
+    border-bottom: 20px solid gold;
+    transition: ;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    gap: 20px;
+}
+</style> -->
+<!-- <main class="main">
+    <div class="items"></div>
+    <div class="items"></div>
+    <div class="items"></div>
+    <div class="items"></div>
+</main>
+
+
+<style>
+    .main{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border: 2px solid red;
+        height: 600px;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .items{
+        width: 500px;
+        border: 1px solid red;
+        height: 200px;
+    }
+</style> -->
+    <!-- <main class="main">
+        <div class="div">
+            <div><P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus esse nesciunt molestias necessitatibus dolore iusto odio quae voluptate fugiat libero?</P></div>
+            <div class="parent">
+                <div>img</div>
+                <div id="link">link</div>
+            </div>
+        </div>
+    </main>
+
+    <style>
+        .parent{
+            display: flex;
+            justify-content: space-around;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 500px;
+            border: 3px solid black;
+            padding: 20px;
+        }
+        .div{
+            width: 70%;
+            height: 300px;
+            border: 2px solid grey;
+        }
+        #link{
+            transform: translateY(20px);
+        }
+    </style> -->
+    <!-- <div class="collegeues">
+        <div class="statement">
+            <div>
+                <qoute>
+                Steve Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat nesciunt harum nisi labore voluptates delectus id ut inventore dignissimos, quo itaque magni. Nesciunt sequi officia ratione ipsum provident pariatur, sed perferendis exercitationem suscipit ab delectus voluptas itaque voluptates neque unde nulla eveniet. A non eveniet mollitia, odio asperiores quod commodi.
+                </qoute>
+            </div>
+            <br><br>
+            <div class="parent">
+                <div>
+                    <img src="https://lh3.googleusercontent.com/a-/A-UjXFftNqlhYUd8sn7gPztRKI9ZUt_MnKEVl1TOCo0RhU1roo8fAM=s40-c" alt="Mr Frank Obatomi" height="70" width="70" style="border-radius: 50px;"></div>
+                <div id="link">
+                    <a href="https://www.linkedin.com/in/frank-obatomi-800b65306/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BBCkCj6HsSr2mC6kO%2FSGI9Q%3D%3D">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEVHcEwAd7UAd7UAd7UAd7UAd7UAd7UAd7UAd7UAd7X///8CcLIAaa5Nj8Hn8/lypMyawNw6hby81+j0+/0ZeLXT5fBnnchdlcOLtNWxzePrILPNAAAACnRSTlMAUn3/Gpo9+Wne3pzmuwAAAMZJREFUKJHNk9sWgiAQRcfQjIZrIOr//2gzRK6K8b3z4JG1UeYGAFz03EtPwNLqRCPAdMaUBmBDg0agV4ZYXAoCvTHMd5JHEaJn+Og/rTAy3GSojE9pPztTGczMELGGbvATRlJWmc3EbQ++7mq/dXTmipbDWhMH4OI3tBUulZEbAR6yKEBXbKiZSXClMi/knNovdJmWoRWsg/j/MB21TV0qWLz31BV6Fl5aeuHyDXVssXXyZe/GKoCxn4CmgSZ+lG7DrPQV4AnbbBfzU77xIAAAAABJRU5ErkJggg==" alt="linkedin logo"> Link to LinkedIn
+                    </a>
+                </div>
+                
+            </div> 
+        </div>
+    </div>
+    <style>
+        .parent{
+            display: flex;
+            justify-content: space-around;
+        }
+        .collegeues{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 500px;
+            border: 3px solid black;
+            padding: 20px;
+        }
+        .statement{
+            width: 70%;
+            height: 300px;
+            border: 2px solid grey;
+        }
+        #link{
+            transform: translateY(20px);
+        }
+    </style>  
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animated Menu</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <section class="header-title-line">
+            <h1> Client Logo</h1>
+            <button class="menu-button">
+                <div class="menu-icon"></div>
+            </button>
+        </section>
+
+        <nav>
+            <ul>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<style>
+
+/* Reset default margin/padding and set box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define CSS variables for consistent theming */
+:root {
+    --HEADER-BGCOLOR: limegreen;
+    --HEADER-COLOR: whitesmoke;
+}
+
+/* Set base font size and font family */
+html {
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Make body take full height and layout children vertically */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Style header background and text color using variables */
+header {
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+}
+
+/* Layout for title line inside header */
+.header-title-line {
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+/* Style the menu button container */
+.menu-button {
+    background-color: transparent;
+    border: none;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Enables positioning of child elements */
+}
+
+/* Style the hamburger icon (main line and pseudo-elements) */
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after {
+    background-color: var(--HEADER-COLOR);
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+/* Create top and bottom lines for hamburger menu */
+.menu-icon::before,
+.menu-icon::after {
+    content: "";
+}
+
+/* Position the top line above the main line */
+.menu-icon::before {
+    transform: translate(-20px, -12px);
+}
+
+/* Position the bottom line below the main line */
+.menu-icon::after {
+    transform: translate(-20px, 12px);
+}
+
+/* Animate menu icon into 'X' on hover/focus */
+:is(header:hover, header:focus-within) .menu-icon {
+    background-color: transparent; /* Hide the middle line */
+    
+}
+
+/* Rotate top line to create 'X' shape */
+:is(header:hover, header:focus-within) .menu-icon::before {
+    transform: translateX(-20px) rotate(45deg);
+}
+
+/* Rotate bottom line to complete the 'X' */
+:is(header:hover, header:focus-within) .menu-icon::after {
+    transform: translateX(-20px) rotate(-45deg);
+}
+
+/* Show nav menu when header is hovered/focused */
+:is(header:hover, header:focus-within) nav {
+    display: block;
+}
+
+/* Initially hide the nav menu; animate its appearance */
+nav {
+    background-color: var(--HEADER-BGCOLOR);
+    display: none;
+    transform-origin: top center;
+    animation: showMenu 0.5s ease-in-out forwards;
+}
+
+/* Animation for dropdown effect */
+@keyframes showMenu {
+    0% {
+        transform: scaleY(0); /* Start invisible */
+    }
+
+    80% {
+        transform: scaleY(1.2); /* Slight overshoot for bounce */
+    }
+
+    100% {
+        transform: scaleY(1); /* Final position */
+    }
+}
+
+/* Style navigation list container */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Style each navigation item */
+nav li {
+    padding: 0.5rem;
+    border-top: 1px solid var(--HEADER-COLOR);
+}
+
+/* Center navigation links and make them block-level */
+nav a {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+/* Style all link states */
+nav a:any-link {
+    color: var(--HEADER-COLOR);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Scale links slightly on hover/focus for interaction feedback */
+nav a:hover,
+nav a:focus {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+</style>
+    <main>
+
+    </main>
+
+</body>
+
+</html>
+</body>
+</html>
+
