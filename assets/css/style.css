@@ -1,0 +1,382 @@
+/* About css */
+/* Body */
+.body{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f7f8fa;
+/* Top used for the Navigation and Icon container*/
+}.top{
+    display: flex;
+    background-color: #0a71c6;
+    justify-content: space-between;
+}
+/* Logo used for the Icons */
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+/* Nav used for the Navigation Bar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+/* Navigation Hover Effect */
+.nav a:hover{
+    border-bottom: 5px solid white;
+}
+/* Used for the links in the Navigation bar */
+.link{
+    text-decoration: none;
+    color: white;
+}
+/* Header Content */
+.header{
+    display: flex;
+    background-color: #41a4f5;
+    color: white;
+    padding: 30px;
+}
+/* Header Left */
+.header > .left{
+    flex: 20%;
+}
+/* Header Right */
+.header > .right{
+    flex: 80%;
+}
+/* The Name in H1 */
+.name{
+    text-align: justify;
+}
+/* Hire Button */
+.hire{
+    background-color: #276293;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+/* links */
+a{
+    text-decoration: none;
+    color: #1a4262;
+}
+/* Main body */
+.main{
+    text-align: center;
+    margin: 10rem;
+}
+/* Content Body */
+.content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f8fa;
+}
+/* Used to move Icon Up */
+.up{
+    padding: 20px 10px;
+    width: 70px;
+    background-color: #41a4f5;
+    transform: translate(110px, -300px);
+    border-radius: 50%;
+    text-align: center;
+}
+/* Item in a Content */
+.item{
+    background-color: white;
+    color: #58678d;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 80px 20px;
+}
+/* items in the blog */
+.items{
+    background-color: white;
+    color: #58678d;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 80px 20px;
+}
+/* for h2 elements content */
+h2{
+    text-align: center;
+    color: black;
+}
+/* for h3 elements content */
+h3{
+    text-align: center;
+    color: black;
+}
+/* used for both the links and images for linkedin .statement */
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+/* the outerpart div for the statement */
+.collegeues{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 700px;      
+    border: 3px dashed white;
+    padding: 20px;
+}
+/* the div for the write up every  */
+.statement{
+    background-color: white;
+    color: #58678d;
+    padding: 20px;
+    width: 70%;
+    height: 300px;
+    border: 2px solid #f4f4f4;
+}
+/* for the unordered lists */
+ul{
+    list-style-type: none;
+}
+/* to change to an emoji */
+ul li::marker{
+    content: "✔";
+    color: #41a4f5;
+}
+/* the first image */
+.first{
+    background-image: url(https://imgs.search.brave.com/NeVy2VtCW2CCUrnXImJv4QGpzmm3gYMU1W6Asc3pyLE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vRWRzVEFS/bTVndHBSZnFDYXI5/eGljY1RENmZYa1dN/VzNEcW10VWwyTnVX/ay9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTl0/WldScC9ZUzVuWlhS/MGVXbHRZV2RsL2N5/NWpiMjB2YVdRdk1U/TTQvTnpNMk1UY3hN/Uzl3YUc5MC9ieTl0/WVd4bExXTnZiWEIx/L2RHVnlMWEJ5YjJk/eVlXMXQvWlhKekxX/UnBjMk4xYzNOcC9i/bWN0YjNabGNpMWpi/MlJsL2N5MWhkQzFr/WlhOckxXbHUvTFc5/bVptbGpaUzVxY0dj/Xy9jejAyTVRKNE5q/RXlKbmM5L01DWnJQ/VEl3Sm1NOWFtWk8v/Um14aU1XOUhVekUw/U3pjNC9MVjlmVmtv/eFFWRXRaamwwL1lX/NTNYMXBZYmxseGFE/RjEvWTJkZk9EMA.jpeg);
+}
+/* the second image */
+.second{
+    background-image: url(https://imgs.search.brave.com/BBaP8XVVigPmqsk0hbaGZmjDxIejvkSZOK_VP4cuOLI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vQ01nZGp2/eGloOURMZXRBeUJf/VzRHV0RpUVQ1VVB6/NS05MVo2WnFCOXZr/by9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/YldjdS9abkpsWlhC/cGF5NWpiMjB2L1pu/SmxaUzF3YUc5MGJ5/OXcvY205bmNtRnRi/V2x1WnkxaS9ZV05y/WjNKdmRXNWtMWGRw/L2RHZ3RjR1Z5YzI5/dUxYZHYvY210cGJt/Y3RkMmwwYUMxai9i/MlJsY3kxamIyMXdk/WFJsL2NsOHlNeTB5/TVRVd01ERXcvTVRF/NUxtcHdaejl6Wlcx/MC9QV0ZwYzE5b2VX/SnlhV1FtL2R6MDNO/REE.jpeg);
+}
+/* the third image */
+.third{
+    background-image: url(https://imgs.search.brave.com/ZPFRL8bMJFvBYd5-Q1DjqkMl6Ow3iAHXqUPiYBOyLYs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vRjNHWG94/Y1o5SlR3WjlDN0JF/ei01T1cydGpxcmZ5/RTFOM3dxR0NlYXBH/Yy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTl0/WldScC9ZUzVwYzNS/dlkydHdhRzkwL2J5/NWpiMjB2YVdRdk1U/SXcvTWpBNU16UXdO/Qzl3YUc5MC9ieTkz/WldKemFYUmxMV1Js/L2MybG5iaTFrWlha/bGJHOXcvYVc1bkxY/QnliMmR5WVcxdC9h/VzVuTFdGdVpDMWpi/MlJwL2JtY3RkR1Zq/YUc1dmJHOW4vYVdW/ekxtcHdaejl6UFRZ/eC9NbmcyTVRJbWR6/MHdKbXM5L01qQW1Z/ejFCT1MwMlNWVlEv/UmxaeGIyNUZSMjVm/VjFORC9lbFY2VDJR/NVZYRjBTWGg2L05r/Sk1RVTFRT0hSVFlU/ZEIvUFE.jpeg);
+}
+/* the h4 */
+h4{
+    text-align: center;
+    color: black;
+}
+/* a container for content */
+.content > .box{
+    background-color: white;
+    height: 400px;
+    border-radius: 10px;
+}
+/* used to push down the link in statement container */
+#link{
+    transform: translateY(100px);
+}
+/* used for the spacing of the buttons */
+.space{
+    display: flex;
+    justify-content: space-around;
+}
+/* the buttons in the box container */
+button{
+    background-color: #58677c;
+    color: white;
+    border-radius: 10px;
+}
+/* used for the view button but blogs and projects */
+.view{
+    text-align: center;
+    background-color: #fff;
+}
+h1{
+    text-align: center;
+}
+/* the outercontainer for blogs */
+.latest{
+    background-color: #f7f8fa;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-content: space-evenly;
+}
+/* the div that handles the write ups */
+.place{
+    width: 40%;
+}
+/*  */
+.text{
+    text-align: center;
+    color: blue;
+}
+/* for the buttons in the blog read more */
+#button{
+    width: 100px;
+    height: 50px;
+    transform: translate(-110px,-30px);
+    background-color: rgb(8, 141, 250);
+    color: lightblue;
+    border-radius: 50px;
+    border-color: aliceblue;
+}
+/* for the icons */
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+/* for the footer */
+.footer{
+    background-color: rgba(4, 145, 252, 0.705);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+/* for the buttom */
+.buttom{
+    background-color: #434e5e;
+    color: #93b4c3;
+    text-align: center;
+    padding: 20px;
+}
+/* for the buttom button */
+a > button{
+    background-color: #276293;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 640px) {
+    body{
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    } 
+    .top{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logos{
+        justify-content: space-between;
+        width: 10rem;
+    }
+    .nav{
+        flex-direction: column;
+        width: 5rem;
+    }
+    .header{
+        width: 70%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 60px;
+    }
+    .main{
+        width: inherit;
+        margin: 5rem 2rem;
+        text-align: justify;
+    }
+    .content{
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+        margin-bottom: 50rem;
+    }
+    .item{
+        width: 15rem;
+        height: 10rem;
+    }
+    .up{
+        padding: 20px 10px;
+        width: 70px;
+        background-color: #41a4f5;
+        transform: translate(75px, -250px);
+        border-radius: 50%;
+        text-align: center;
+    }
+    .icon{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .collegeues{
+        width: inherit;
+        margin-bottom: 15rem;
+    }
+    .statement{
+        width: inherit;
+        height: 200rem;
+    }
+    .latest{
+        width: inherit;
+        height: 200rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .place{
+        width: inherit;
+    }
+    .place > img{
+        width: 5rem;
+    }
+    #button{
+        width: 100px;
+        height: 50px;
+        transform: translate(120px,-60px);
+        background-color: rgb(8, 141, 250);
+        color: lightblue;
+        border-radius: 50px;
+        border-color: aliceblue;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    body{
+        width: inherit;
+    }
+    .header{
+        gap: 1rem;
+    }
+    .content{
+        width: inherit;
+        flex-wrap: wrap;
+        margin-bottom: 25rem;
+    }
+    .up{
+        padding: 20px 10px;
+        width: 70px;
+        background-color: #41a4f5;
+        transform: translate(50px, -300px);
+        border-radius: 50%;
+        text-align: center;
+    }
+    .item{
+        width: 12rem;
+    }
+    .icon{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: green;
+    }
+    #button{
+        width: 100px;
+        height: 50px;
+        transform: translate(120px,-120px);
+        background-color: rgb(8, 141, 250);
+        color: lightblue;
+        border-radius: 50px;
+        border-color: aliceblue;
+    }
+}
+@media (min-width: 1024px) and (max-width: 2000px){
+    body{
+        width: inherit;
+    }
+}

@@ -1,0 +1,226 @@
+/* About css */
+/* Body */
+.body{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f7f8fa;
+}
+/* Top used for the Navigation and Icon container*/
+.top{
+    display: flex;
+    background-color: #0a71c6;
+    justify-content: space-between;
+}
+/* Logo used for the Icons */
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+/* Nav used for the Navigation Bar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+/* Navigation Hover Effect */
+.nav a:hover{
+    border-bottom: 5px solid white;
+}
+/* for the class link */
+.link{
+    text-decoration: none;
+    color: white;
+}
+/* for the header */
+.header{
+    display: flex;
+    background-color: rgba(4, 145, 252, 0.705);
+    color: white;
+    padding: 20px;
+}
+.header > .left{
+    flex: 20%;
+}
+.header > .right{
+    flex: 80%;
+    text-align: justify;
+}
+/* for the main */
+.main{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 20px;
+}
+.main > .left{
+    flex: 30%;
+}
+.main > .right{
+    flex:30%;
+}
+/* for all links without a class */
+a{
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+}
+/* for the buttom of the page */
+#button{
+    transform: translate(230px,-30px);
+    background-color: rgb(8, 141, 250);
+    color: lightblue;
+    border-radius: 50px;
+    border-color: aliceblue;
+}
+/* for the class content */
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-content: space-evenly;
+}
+/* for the class place */
+.place{
+    width: 25%;
+}
+/* for the footer */
+.footer{
+    background-color: rgba(4, 145, 252, 0.705);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+/* for the buttom of the page */
+.buttom{
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+/* for the buttons in a link */
+a > button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(8, 141, 250);
+    color: lightblue;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+@media screen and (max-width: 640px) {
+    body{
+    max-width: inherit;
+    justify-content: center;
+    text-align: center;
+    } 
+    .top{
+        display: flex;
+        justify-content: space-between;
+        width: inherit;
+        padding: auto;
+    }
+    .logos{
+        justify-content: space-between;
+        width: 10rem;
+    }
+    .nav{
+        flex-direction: column;
+        width: 5rem;
+    }
+    .header{
+        width: 70%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 60px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgleft{
+        width: inherit;
+    }
+    .imgleft > img{
+        width: 20rem;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .place{
+        width: inherit;
+    }
+    h2{
+        width: 22rem;
+    }
+    p{
+        width: 22rem;
+    }
+    #button{
+        width: auto;
+        transform: translate(-80px,-10px);
+        background-color: rgb(8, 141, 250);
+        color: lightblue;
+        border-radius: 50px;
+        border-color: aliceblue;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    body{
+        width: inherit;
+    }
+    .header{
+        width: inherit;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 60px;
+    }
+    .header > .right{
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imgleft{
+        width: inherit;
+        justify-content: center;
+    }
+    .imgleft > img{
+        width: 20rem;
+    }
+    .content{
+        width: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .place{
+        
+        padding-right: 5rem;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    #button{
+        width: auto;
+        transform: translate(220px,-30px);
+        background-color: rgb(8, 141, 250);
+        color: lightblue;
+        border-radius: 50px;
+        border-color: aliceblue;
+    }
+}
+@media (min-width: 1024px) and (max-width: 2000px){
+    body{
+        width: inherit;
+    }
+}

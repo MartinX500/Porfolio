@@ -1,0 +1,159 @@
+/* About css */
+/* Body */
+.body{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f7f8fa;
+/* Top used for the Navigation and Icon container*/
+}.top{
+    display: flex;
+    background-color: #0a71c6;
+    justify-content: space-between;
+}
+/* Logo used for the Icons */
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+/* Nav used for the Navigation Bar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+/* Navigation Hover Effect */
+.nav a:hover{
+    border-bottom: 5px solid white;
+}
+/* this is the for the class links */
+.link{
+    text-decoration: none;
+    color: white;
+}
+/* this is for the header */
+.header{
+    background-color: #41a4f5;
+    color: white;
+    padding: 20px;
+}
+/* this is for the main */
+.main{
+    display: flex;
+    padding: 20px;
+    background-color: #f7f8fa;
+}
+/* this is the class left in a main */
+.main > .left{
+    flex: 60%;
+    background-color: #fff;
+}
+/* this is the class right in a main */
+.main > .right{
+    flex: 40%;
+    background-color: #fff;
+}
+/* this is for all the links */
+a{
+    text-decoration: none;
+    color: blue;
+}
+/* this is for the footer */
+.footer{
+    background-color: rgba(4, 145, 252, 0.705);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+/* this is for the buttom */
+.buttom{
+    background-color: #434e5e;
+    color: #93b4c3;
+    text-align: center;
+    padding: 20px;
+}
+a > button{
+    background-color: #276293;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    body{
+    max-width: inherit;
+    justify-content: center;
+    text-align: center;
+    } 
+    .top{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: auto;
+    }
+    .logos{
+        justify-content: space-between;
+        width: 10rem;
+    }
+    .nav{
+        flex-direction: column;
+        width: 5rem;
+    }
+    .header{
+        width: inherit;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #0a71c6;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .footer{
+        width: inherit;
+    }
+    .buttom{
+        width: inherit;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    body{
+        width: inherit;
+    }
+    .main{
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #0a71c6;
+    }
+    .left{
+        width: 100%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width: 1024px) and (max-width: 2000px){
+    body{
+        width: inherit;
+    }
+}
